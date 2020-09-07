@@ -18,21 +18,19 @@ class StudentDesks {
          */
 
         int deskA = classA / 2;
-        if (deskA % 2 != 0)
+        if (classA % 2 != 0)
         {
           deskA = deskA + 1;
         }
-        
         int deskB = classB / 2;
-        if (deskB % 2 != 0){
+        if (classB % 2 != 0){
           deskB = deskB + 1;
         }
         int deskC = classC / 2;
-        if (deskC % 2 != 0){
+        if (classC % 2 != 0){
           deskC = deskC + 1;
         }
-        
-        int totalDesks = deskA + deskB + deskC;
+        int totalDesks = (deskA + deskB + deskC);
         System.out.print(totalDesks);
         // closing the scanner object
         scanner.close();
