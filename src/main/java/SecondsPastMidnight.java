@@ -11,7 +11,7 @@ class SecondsPastMidnight {
 
         //Your code goes here
         int minutesPast = secondsPast / 60;
-        int hoursPast = minutesPast / 60;
+        int hoursPast = secondsPast / 3600;
 
         System.out.print(minutesPast + " " + hoursPast);
 
