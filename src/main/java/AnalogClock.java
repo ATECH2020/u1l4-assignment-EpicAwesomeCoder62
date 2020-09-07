@@ -8,10 +8,14 @@ class AnalogClock {
 
         //Reads ints from user
 
+        int hourAngle = scanner.nextInt();
 
         /*
          *  your code goes here
          */
+
+          int minuteAngle = (hourAngle % 30) * 12;
+          System.out.print(minuteAngle);
 
         // closing the scanner object
         scanner.close();
